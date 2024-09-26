@@ -1,0 +1,53 @@
+/* t17.css */
+body{
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.8em;
+}
+
+.container {
+  background-color: #eee;
+  height: 100vh;
+  display: flex;
+
+/* flex-direction: row;  기본(행 기준)*/
+/*flex-direction: column;*/
+/* flex-direction: row-reverse; */
+/* flex-direction: column-reverse; */
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+/* justify-content: center; */
+/* justify-content: flex-end; */
+
+/* justify-content: space-around; */
+/* justify-content: space-between; */
+justify-content: space-evenly;
+
+/* /align-items: baseline; */
+/* align-items: center; */
+align-items: end;
+}
+
+.item {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.item2 {
+  width: 150px;
+  height: 150px;
+}
+
+.item1 {background-color: rgb(27, 209, 148);}
+.item2 {background-color: rgb(32, 72, 145);}
+.item3 {background-color: rgb(161, 127, 255);}
+.item4 {background-color: rgb(70, 30, 48);}
+.item5 {background-color: rgb(214, 171, 145);}
+.item6 {background-color: rgb(232, 238, 144);}
+.item7 {background-color: rgb(161, 228, 178);}
+.item8 {background-color: rgb(167, 140, 211);}
+.item9 {background-color: rgb(236, 238, 136);}
+.item10 {background-color: rgb(89, 146, 192);}
