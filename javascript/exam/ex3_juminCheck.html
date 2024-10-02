@@ -38,6 +38,8 @@
       }
 
       let na = hap % 11;
+      let checkDigit = 11 - na;
+
       if(checkDigit > 9) checkDigit = checkDigit % 10;
 
       let str = "<font color='red'><b>";
