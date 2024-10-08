@@ -16,7 +16,7 @@ res = ++cnt + ":" + Math.floor(su3) + '<br/>'; //floor() : 무조건 내림
 res = ++cnt + ":" + Math.floor(su4) + '<br/>'; 
 res = ++cnt + ":" + Math.trun3(su3) + '<br/>'; //trunc() : 소수이하를 무조건 자름 
 res = ++cnt + ":" + Math.trunc(su4) + '<br/>'; 
-res = ++cnt + ":" + Math.pow(su4) + '<br/>'; 
+res = ++cnt + ":" + Math.pow(su4) + '<br/>';  // pow() 지수승..
 res = ++cnt + ":" + Math.pow(su1) + '<br/>';      // pow() 지수승..
 
 
